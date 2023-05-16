@@ -41,7 +41,7 @@ def task2(question, sep, right_answee_list):
 if __name__ == "__main__":
     # task1()
 
-    rt_anw_lst = ['дриопитек', 'рамапитек', 'австралопитек', 'человек умелый',
-                  'человек прямоходящий', 'неандертальский человек', 'неоантроп']
-    task2("Введите этапы развития человечества ",
+    rt_anw_lst = ['Australopitec', 'Homo habilis', 'Homo erectus', 'Homo neanderthalensis',
+                  'Homo sapiens', 'Homo sapiens sapiens']
+    task2("Введите этапы развития человечества (на латинском) ",
           ' => ', rt_anw_lst)
