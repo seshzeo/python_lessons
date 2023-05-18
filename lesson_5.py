@@ -42,6 +42,7 @@ def task2():
         else:
             print(key, value, sep=' : ')
     print("Количество гласных:", vower_count, "шт")
+    print("Количество согласных:", len(ipt) - vower_count, "шт")
 
 
 def task3():
