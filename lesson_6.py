@@ -18,6 +18,7 @@ def task2():
             print('Loading', i)
     print("Количество натуральных делителей числа:", count_of_nat_div)
 
+    
 def task3():
     a = int(input("Введите первое целое число: "))
     b = int(input("Второе целое число: "))
@@ -25,6 +26,7 @@ def task3():
         if i % 2 == 0:
             print(i, end=' ')
 
+            
 if __name__ == '__main__':
     # task1()
     # task2()
