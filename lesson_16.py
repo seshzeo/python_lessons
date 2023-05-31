@@ -59,7 +59,7 @@ class Turtle(object):
         else:
             self.__step -= 1
 
-    def count_moves(self, target_x, target_y):
+    def count_moves(self, target_x, target_y) -> int:
         # если разница целевых координат текущей позиции по оси х и у кратна шагу, возвращаем количество шагов
         if ((target_x - self.__x) % self.__step == 0) and ((target_y - self.__y) % self.__step == 0):
             return (abs(target_x - self.__x)/self.__step)+(abs(target_y - self.__y)/self.__step)
